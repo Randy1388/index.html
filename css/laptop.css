@@ -1,0 +1,464 @@
+/* laptop and desktop*/
+@media only screen and (min-width: 992px) {
+  .nav-control a {
+    margin: 0 1.2rem 0 0;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #495057;
+}
+img {
+  width: 100%;
+  height: 700px;
+
+  position: relative;
+}
+#banner {
+  font-size: 24px;
+  color: #f7f7f7;
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  transform: translate(50%, 150%);
+}
+#banner span {
+  font-size: 14px;
+  margin-left: 86px;
+}
+.avatar {
+  display: none;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #e9ecef;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icons {
+  color: #228be6;
+  margin-top: 12px;
+}
+
+.container {
+  width: 100%;
+  background: #f7f7f7;
+  line-height: 1.7;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: flex-start;
+  column-gap: 160px;
+}
+.section-title {
+  margin-bottom: 36px;
+  color: #228be6;
+}
+.mt-40 {
+  list-style: none;
+}
+.mt-40 span {
+  font-weight: 600;
+}
+section .container {
+  width: 1324px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+#nav-bar {
+  max-width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#nav-bar .nav-control {
+  margin: 0 -2.4rem 0 auto;
+}
+
+#nav-bar .container {
+  display: flex;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1,
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  margin-right: 8px;
+  color: #228be6;
+}
+.nav-2 {
+  display: inline-block;
+}
+
+#nav-bar a {
+  text-transform: uppercase;
+  padding: 0 24px;
+  margin-right: 9.6rem;
+  margin-left: auto;
+}
+#nav-bar a:link,
+#nav-bar a:visited {
+  color: #495057;
+  text-decoration: none;
+}
+#nav-bar a:hover,
+#nav-bar a:active {
+  color: #868e96;
+}
+#about .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.icons {
+  display: flex;
+  gap: 36px;
+}
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+#job-info .container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 24px;
+}
+#job-info .kinhnghiem {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding: 36px;
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+#job-info .kinhnghiem ul {
+  grid-column: 1/3;
+  margin-top: 48px;
+}
+#note {
+  background-color: #228be6;
+  color: #f7f7f7;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 2px 8px;
+}
+#job-info .kinhnghiem li::marker {
+  color: #228be6;
+}
+#job-info p {
+  font-size: 10px;
+}
+.ic-toolbox {
+  align-self: center;
+  justify-self: center;
+  transform: scale(3);
+  color: #868e96;
+}
+#job-info .hocvan {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding: 36px;
+
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 75% 25%;
+}
+#job-info .hocvan ul {
+  padding-top: 36px;
+}
+#job-info .hoatdong ul {
+  padding-top: 36px;
+}
+.ic-pencil {
+  align-self: center;
+  justify-self: center;
+  transform: scale(3);
+  color: #868e96;
+}
+#job-info .hocvan li::marker {
+  color: #228be6;
+}
+#job-info .hoatdong {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding: 36px;
+
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 75% 25%;
+}
+.ic-tools-2 {
+  align-self: center;
+  justify-self: center;
+  transform: scale(3);
+  color: #868e96;
+}
+#job-info .hoatdong li::marker {
+  color: #228be6;
+}
+#job-info .sothich {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.sothich--layout {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 24px;
+}
+.sothich--layout .text {
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left: 2px;
+  font-weight: 600;
+}
+
+#job-info .ic-megaphone,
+#job-info .ic-strategy,
+#job-info .ic-hotairballoon,
+#job-info .ic-basket {
+  color: #228be6;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #228be6;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic-telescope {
+  align-self: center;
+  justify-self: center;
+  transform: scale(3);
+  color: #868e96;
+}
+#job-info .ngonngu {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding: 36px;
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.ngonngu p {
+  margin-top: 48px;
+}
+.ic-mic {
+  align-self: center;
+  justify-self: center;
+  transform: scale(3);
+  color: #868e96;
+}
+.ngonngu--mic {
+  grid-column: 1/3;
+}
+.ngonngu--mic .off {
+  background-color: #868e96;
+}
+.ngonngu--diem {
+  display: inline-block;
+  margin-right: 12px;
+
+  background-color: #228be6;
+  width: 45px;
+  height: 2px;
+}
+#job-info .kynang {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  line-height: 1.8;
+  padding-left: 36px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+}
+.kynang {
+  padding: 24px;
+}
+.kynang--cole {
+  grid-column: 1/3;
+}
+.kynang--diem {
+  display: inline-block;
+  margin-right: 12px;
+
+  background-color: #228be6;
+  width: 45px;
+  height: 2px;
+}
+.kynang p {
+  margin-top: 24px;
+}
+.kynang--cole .off {
+  background-color: #868e96;
+}
+.hinhchungchi {
+  width: 300px;
+  height: 150px;
+}
+
+#certificate .container {
+  padding: 86px 24px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  position: relative;
+}
+#certificate .container p {
+  font-size: 10px;
+}
+.chungchi-1 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+  display: flex;
+  order: -1;
+  border-left: 1px solid #d6c08d;
+  border-bottom: 3px solid #d6c08d;
+}
+.chungchi-2 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+  order: -1;
+  display: flex;
+  border-left: 1px solid #d6c08d;
+  border-bottom: 3px solid #d6c08d;
+}
+.chungchi-3 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+
+  display: flex;
+  order: -2;
+  border-left: 1px solid #d6c08d;
+  border-bottom: 3px solid #d6c08d;
+}
+.chungchi-text {
+  padding: 12px;
+  align-self: center;
+  justify-self: center;
+}
+
+.section-title-certificate {
+  color: #228be6;
+  position: absolute;
+  top: 24px;
+  left: 48px;
+}
+#footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 86px;
+}
+#footer li {
+  display: inline-block;
+  list-style: none;
+}
+#footer a:link,
+#footer a:visited {
+  color: #495057;
+  text-decoration: none;
+}
+#footer a:hover,
+#footer a:active {
+  color: #868e96;
+}
+#project .container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  position: relative;
+  padding: 86px 24px;
+
+  align-items: flex-start;
+  column-gap: 12px;
+}
+#project .cv-canhan {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+#project .cv-thongtin {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#project .year {
+  background-color: #228be6;
+  color: #f7f7f7;
+  border-radius: 24px;
+  width: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.duan-1 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+  order: -1;
+}
+.duan-2 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+  order: -1;
+}
+.duan-3 {
+  box-shadow: 0 10px 10px rgba(77, 109, 141, 0.1);
+  order: -1;
+}
+.hinhduan {
+  height: 300px;
+}
+.section-title-duan {
+  color: #228be6;
+  position: absolute;
+  top: 24px;
+  left: 48px;
+}
+h1 {
+  color: #228be6;
+}
+.bang {
+  border: 1px solid rgba(134, 142, 150, 0.2);
+  font-size: 12px;
+
+  border-collapse: collapse;
+}
+tr,
+td {
+  padding: 12px 12px;
+}
+th {
+  width: 72px;
+}
+tr:nth-child(odd) {
+  background-color: rgba(134, 142, 150, 0.1);
+}
+tr:nth-child(even) {
+  background-color: rgba(28, 92, 156, 0.171);
+}

@@ -1,0 +1,164 @@
+:root {
+  --bg-color: #e9ecef98;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  line-height: 1.2;
+  color: #333;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin: 12px;
+  color: blue;
+  padding: 3px 0 12px 12px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.521);
+}
+
+.container {
+  margin: 100px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: 350px 250px;
+  gap: 12px;
+}
+
+/* **************************** */
+/* Section Goals */
+.Goals {
+  background-color: var(--bg-color);
+  grid-column: 1/3;
+}
+
+span {
+  font-weight: 600;
+}
+
+.Goals-contents {
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.Goals-contents-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin: 24px 48px;
+  border-bottom: 1px solid #998f0028;
+}
+
+.icon {
+  width: 48px;
+  height: 24px;
+}
+
+.icons {
+  width: 48px;
+  height: 24px;
+}
+
+/* **************************** */
+/* Section Scopes */
+.Scopes {
+  background-color: var(--bg-color);
+  grid-column: 1/3;
+}
+
+.Scopes-contents {
+  padding: 0 30px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 1.6;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 48px;
+}
+
+.span {
+  font-size: 16px;
+}
+
+/* **************************** */
+/* Section Time */
+.Team {
+  background-color: var(--bg-color);
+}
+
+.Team-member-flex {
+  margin: 36px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Team-description p {
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+/* **************************** */
+/* Section Primary */
+
+.Primary {
+  background-color: var(--bg-color);
+}
+
+.Primary-contents-flex {
+  margin: 36px 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+/* **************************** */
+/* Section Timeline */
+
+.Timeline {
+  background-color: var(--bg-color);
+  grid-column: 4;
+  grid-row: 1/3;
+}
+
+.Timeline-contents {
+  padding-bottom: 8px;
+}
+
+.Timeline-contents-number {
+  border: 1px solid #e9ecef98;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Timeline-contents-flex {
+  margin: 12px 24px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.Timeline-contents-text {
+  border-bottom: 1px dotted cornflowerblue;
+  font-size: 12px;
+  margin-top: 8px;
+  padding-bottom: 12px;
+}

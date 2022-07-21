@@ -1,0 +1,230 @@
+/*  tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #banner {
+    font-size: 18px;
+    color: #f7f7f7;
+    z-index: 1;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transform: translate(50%, 50%);
+  }
+
+  img {
+    height: 400px;
+    position: relative;
+  }
+
+  #banner span {
+    font-size: 12px;
+    margin-left: 48px;
+  }
+
+  #nav-bar a {
+    text-transform: uppercase;
+    padding: 0 2rem;
+    margin-right: 3rem;
+  }
+
+  #about .container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    font-size: 12px;
+    column-gap: 80px;
+    padding-left: 186px;
+  }
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 12px;
+    padding-left: 186px;
+  }
+
+  #job-info .container .sothich {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 300px;
+  }
+
+  #job-info .container .hocvan {
+    height: 400px;
+  }
+
+  #certificate .container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    font-size: 12px;
+    column-gap: 48px;
+    padding-left: 168px;
+    position: relative;
+  }
+
+  .chungchi-1,
+  .chungchi-2,
+  .chungchi-3 {
+    display: block;
+    margin-bottom: 2.4rem;
+    border: none;
+    box-shadow: none;
+  }
+
+  .chungchi-text {
+    width: 300px;
+    padding-left: 2.4rem;
+    border-bottom: 2px solid #d6c08d;
+  }
+
+  .section-title-certificate {
+    color: #228be6;
+    position: absolute;
+    top: 24px;
+    left: 186px;
+  }
+
+  #project .container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    position: relative;
+    padding: 86px;
+    align-items: flex-start;
+    column-gap: 24px;
+  }
+
+  #project .cv-thongtin {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0;
+  }
+
+  #project .cv-canhan {
+    font-size: 12px;
+  }
+  .cv-thongtin {
+    font-size: 10px;
+  }
+
+  .year {
+    transform: scale(0.6);
+  }
+
+  .section-title-duan {
+    color: #228be6;
+    position: absolute;
+    top: 24px;
+    left: 186px;
+  }
+
+  #footer ul {
+    display: flex;
+    justify-content: stretch;
+    gap: 86px;
+    margin-left: 12.8rem;
+  }
+  #footer li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  /* Project-charter tablet screen */
+  /* ---------------------------------- */
+  /* ---------------------------------- */
+  /* ---------------------------------- */
+  /* ---------------------------------- */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    width: 48px;
+    height: 24px;
+  }
+
+  .icons {
+    width: 48px;
+    height: 24px;
+  }
+  h1 {
+    margin: 12px;
+    padding: 12px;
+    color: blue;
+  }
+  /* Goals */
+  .Goals {
+    width: 650px;
+    height: 330px;
+    order: 1;
+  }
+
+  .Goals-contents-flex {
+    display: flex;
+
+    margin: 12px 48px;
+    border-bottom: 1px solid #998f0028;
+  }
+
+  /* Team */
+
+  .Team {
+    width: 650px;
+    height: 300px;
+    font-size: 12px;
+    order: 3;
+  }
+
+  .Team-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Team-description p {
+    font-size: 14px;
+  }
+
+  /* Scopes */
+
+  .Scopes {
+    width: 650px;
+    height: 300px;
+    order: 2;
+  }
+
+  .Scopes-contents {
+    display: grid;
+    grid-template-columns: 250px 250px;
+  }
+
+  .Scopes-contents-in {
+    margin-bottom: 48px;
+  }
+
+  /* Primary */
+
+  .Primary {
+    width: 650px;
+    height: 250px;
+    order: 4;
+  }
+
+  .Primary-contents-flex {
+    font-size: 12px;
+    margin: 36px 12px;
+  }
+
+  /* Timeline */
+
+  .Timeline {
+    width: 650px;
+    height: 650px;
+    order: 5;
+  }
+
+  .Timeline-contents-text {
+    width: 530px;
+    border-bottom: 1px dotted cornflowerblue;
+    font-size: 12px;
+    margin-top: 8px;
+    padding-bottom: 12px;
+  }
+}
